@@ -1,0 +1,46 @@
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.submit-button {
+    padding: 15px;
+    background: none;
+    border: 2px solid #000;
+    font-size: 1em;
+    color: #000;
+    cursor: pointer;
+    box-shadow: 1px 9px 20px -15px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 9px 20px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 9px 20px -15px rgba(0,0,0,0.75);
+}
+
+.submit-button:hover {
+    background: rgba(0, 0, 0, 0.05);
+    transition: 0.5s;
+}
+
+.submit-button:active {
+    background: rgba(0, 0, 0, 0.05);
+    animation: addShadow 0.5s;
+    box-shadow: 1px 9px 20px -23px rgba(0,0,0,1);
+    -webkit-box-shadow: 1px 9px 20px -23px rgba(0,0,0,1);
+    -moz-box-shadow: 1px 9px 20px -23px rgba(0,0,0,1);
+    transform: translateY(4px);
+}
+
+@keyframes addShadow {
+    0% {
+        box-shadow: 1px 9px 20px -15px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 1px 9px 20px -15px rgba(0,0,0,0.75);
+        -moz-box-shadow: 1px 9px 20px -15px rgba(0,0,0,0.75);
+    }
+    100% {
+        box-shadow: 1px 9px 20px -23px rgba(0,0,0,1);
+        -webkit-box-shadow: 1px 9px 20px -23px rgba(0,0,0,1);
+        -moz-box-shadow: 1px 9px 20px -23px rgba(0,0,0,1);
+    }
+}
