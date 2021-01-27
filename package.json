@@ -1,7 +1,7 @@
 {
   "name": "cv-project",
   "version": "0.1.0",
-  "homepage": "https://lachoaiphan.github.io/Resume-Builder/",
+  "homepage": "http://lachoaiphan.github.io/Resume-Builder",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
